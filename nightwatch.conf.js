@@ -1,4 +1,4 @@
-const BINPATH = './node_modules/nightwatch/bin/';  
+const BINPATH = './node_modules/nightwatch/bin/';
 const SCREENSHOT_PATH = "./test/screenshots/";
 const TEST_REPORT_PATH = "./test/reports";
 const PAGE_OBJECT_PATH = "./test/pages";
@@ -40,10 +40,11 @@ const config = {
             `Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
             (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3`,
           ],
+          // images=2 disables image rendering for a faster smoke test
           prefs: {
             profile: {
               default_content_setting_values: {
-                images: 2,
+                images: 1,
               },
             },
           },

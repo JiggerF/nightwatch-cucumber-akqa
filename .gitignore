@@ -1,4 +1,4 @@
 ./node_modules
 ./test/reports
 ./test/screenshots
-./selenium-debug.log
+selenium-debug.log

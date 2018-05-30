@@ -1,0 +1,75 @@
+[
+  {
+    "description": "As a consumer\nI want to add products to my wish list\nIn order to pruchase them at a later point in time",
+    "keyword": "Feature",
+    "name": "Wish List",
+    "line": 1,
+    "id": "wish-list",
+    "tags": [],
+    "uri": "test/features/wishList.feature",
+    "elements": [
+      {
+        "id": "wish-list;adding-product-to-wish-list-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Adding product to Wish List Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an item is selected on the Product Search Result Page",
+            "match": {
+              "location": "test/step_definitions/wishList.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I'm in a Product Detail page",
+            "match": {
+              "location": "test/step_definitions/wishList.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I add the product to my wish list",
+            "match": {
+              "location": "test/step_definitions/wishList.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the product should show up under my Wish List Page",
+            "match": {
+              "location": "test/step_definitions/wishList.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1689000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
