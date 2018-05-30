@@ -1,2 +1,6 @@
-# nightwatch-cucumber-akqa
-automated test framework for akqa
+
+# UI test automation framework tech stack:
+- Nightwatch JS
+- Cucumber
+- Selenium
+- 
