@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-cucumber-akqa",
+  "version": "0.1.0",
+  "description": "automated test framework",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "pretest": "config.selenium-download.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-test": "nightwatch"
+  },
+  "devDependencies": {
+    "cucumber": "^4.2.1",
+    "cucumber-pretty": "^1.4.4",
+    "nightwatch": "^0.9.21",
+    "nightwatch-cucumber": "^9.1.2",
+    "selenium-download": "^2.0.12",
+    "wait-on": "^2.1.0"
+  }
+}
