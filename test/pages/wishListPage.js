@@ -1,10 +1,12 @@
+const TEST_APP = require('../test-environment').TEST_APP;
+const TEST_URL_PATH = '/wish-lists/';
 
 const PAGE_TEXT = {
   header: 'Wish List'
 };
 
 module.exports = {
-  url: 'https://www.bunnings.com.au/wish-lists/',
+  url: TEST_APP + TEST_URL_PATH,
   elements: {
     header: '.inside-layout > h1',
     productList: '.table-product-list',

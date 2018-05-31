@@ -1,3 +1,4 @@
+@wishList
 Feature: Wish List
 As a consumer
 I want to add products to my wish list

@@ -7,7 +7,6 @@ const addProductCommand = {
   }
 }
 
-
 module.exports = {
   elements: {
     pageIdentifier: '.product-details',
@@ -15,5 +14,4 @@ module.exports = {
     wishListButtonProdAddedLabel: '.btn-add-wishlist.added'
   },
   commands: [addProductCommand]
-
 };
