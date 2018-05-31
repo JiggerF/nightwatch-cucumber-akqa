@@ -1,8 +1,8 @@
 @wishList
 Feature: Wish List
 As a consumer
-I want to add products to my wish list
-In order to pruchase them at a later point in time
+I want to add products to my wish list page
+In order to purchase them at a later point in time
 
 Background:
   Given an item is selected on the Product Search Result Page
