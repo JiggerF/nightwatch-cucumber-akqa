@@ -6,7 +6,8 @@ const SELENIUM_HOST = process.env.SELENIUM_HOST || "127.0.0.1";
 const SELENIUM_PORT = process.env.SELENIUM_PORT || "4444";
 
 require('nightwatch-cucumber')({
-  cucumberArgs: ['--require', './test/step_definitions','--format', 'node_modules/cucumber-pretty', '--format', 'json:./test/reports/cucumber.json', './test/features']
+  cucumberArgs: ['--require', './test/step_definitions','--format', 'node_modules/cucumber-pretty', '--format', 'json:./test/reports/cucumber.json', './test/features'],
+  nightwatchOutput: false
 });
 
 console.log(`Selenium host ----> ` + SELENIUM_HOST);
