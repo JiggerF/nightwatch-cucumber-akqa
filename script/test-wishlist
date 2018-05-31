@@ -2,4 +2,4 @@
 
 export TEST_APP='https://www.bunnings.com.au'
 
-./test -- test/features/wishList.feature
+script/test -- test/features/wishList.feature
