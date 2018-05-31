@@ -41,7 +41,3 @@ Then(/^the product should show up under my Wish List Page$/, () => {
     // by comparing product href to previous product details page visited
     .assert.attributeContains('@productLink', 'href', PRODUCT_DETAIL_URL);
 });
-
-
-https://www.bunnings.com.au/british-paints-2l-white-paint-and-prime-ceiling-paint_p1420580
-https://www.bunnings.com.au/our-range/brands/b/british-paints
