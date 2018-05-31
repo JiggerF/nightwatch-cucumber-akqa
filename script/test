@@ -1,0 +1,2 @@
+#!/bin/bash -eu
+./test-environment npm run e2e-test "${@-bash}"

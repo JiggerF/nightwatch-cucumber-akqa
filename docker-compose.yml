@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  test:
+    build: .
+    working_dir: /work
+    environment:
+      SELENIUM_HOST: selenium
+      TEST_APP:
+    volumes:
+      - .:/work
+    depends_on:
+      - selenium
+
+  selenium:
+    image: selenium/standalone-chrome-debug
+    ports:
+      - "4444:4444"
