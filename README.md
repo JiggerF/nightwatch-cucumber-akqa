@@ -21,11 +21,18 @@ Bash script allows flexsibility for CI build tools callback.
 ```
 export TEST_APP='https://www.bunnings.com.au'
 ```
+
+2. Install all required modules from npm repository
+```
+npm install
+```
+
 2. Run test
 ```
 npm run e2e-test   
 ```
 
+N.B: Above steps can be easily be automated through bash script etc..
 
 # Reading
 
